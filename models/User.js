@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 import bcryptjs from "bcryptjs";
-
+//out from skeleton (user of MongoDB)
 const userSchema = new mongoose.Schema({
   email: {
     type: String,
